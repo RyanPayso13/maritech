@@ -16,15 +16,15 @@ function setup() {
 
 // Example case.
 document.body.innerHTML = `
-  <div id='rating'>
-    <span class="active">*</span>
-    <span>*</span>
-    <span>*</span>
-    <span>*</span>
-    <span>*</span>
-  </div>`;
+<div id='rating'>
+  <span>*</span>
+  <span>*</span>
+  <span>*</span>
+  <span>*</span>
+  <span>*</span>
+</div>`;
 
 setup();
 
-document.getElementsByTagName("span")[1].click();
+document.getElementsByTagName("span")[2].click();
 console.log(document.body.innerHTML);
