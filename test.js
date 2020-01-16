@@ -1,6 +1,6 @@
 function setup() {
   // Write your code here.
-  let spans = document.querySelectorAll("span");
+  const spans = document.querySelectorAll("span");
 
   [...spans].forEach((el, index, elArr) => {
     el.classList.remove("active");
